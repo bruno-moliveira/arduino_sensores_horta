@@ -10,9 +10,9 @@
 #include <MySQL_Connection.h>
 #include <MySQL_Cursor.h>
 
-IPAddress server_addr(54,207,123,154);  // IP of the MySQL *server* here
-char user[] = "admin";              // MySQL user login username
-char password[] = "12345678";        // MySQL user login password
+IPAddress server_addr();  // IP of the MySQL *server* here
+char user[] = "";              // MySQL user login username
+char password[] = "";        // MySQL user login password
 
 // Sample query
 char query[] = "select * from arduino.sensores s;";
